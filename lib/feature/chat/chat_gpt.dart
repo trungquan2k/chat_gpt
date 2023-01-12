@@ -61,7 +61,7 @@ class _ChatGptPageState extends State<ChatGptPage> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(25.0),
               child: Row(
                 children: [
                   _buildInput(),
@@ -72,33 +72,6 @@ class _ChatGptPageState extends State<ChatGptPage> {
           ],
         ),
       ),
-      // body: SafeArea(
-      //   child: Column(
-      //     children: [
-      //       Expanded(
-      //         child: _buildList(),
-      //       ),
-      //       Visibility(
-      //         visible: isLoading,
-      //         child: const Padding(
-      //           padding: EdgeInsets.all(8.0),
-      //           child: CircularProgressIndicator(
-      //             color: Colors.white,
-      //           ),
-      //         ),
-      //       ),
-      //       Padding(
-      //         padding: const EdgeInsets.all(8.0),
-      //         child: Row(
-      //           children: [
-      //             _buildInput(),
-      //             _buildSubmit(),
-      //           ],
-      //         ),
-      //       ),
-      //     ],
-      //   ),
-      // ),
     );
   }
 
@@ -150,18 +123,24 @@ class _ChatGptPageState extends State<ChatGptPage> {
 
   Expanded _buildInput() {
     return Expanded(
-      child: TextField(
-        textCapitalization: TextCapitalization.sentences,
-        style: const TextStyle(color: Colors.white),
-        controller: _textController,
-        decoration: const InputDecoration(
-          fillColor: AppColors.botBackgroundColor,
-          filled: true,
-          border: InputBorder.none,
-          focusedBorder: InputBorder.none,
-          enabledBorder: InputBorder.none,
-          errorBorder: InputBorder.none,
-          disabledBorder: InputBorder.none,
+      child: Container(
+        // decoration: BoxDecoration(
+        //     borderRadius: BorderRadius.circular(10),
+        //     border: Border.all(color: Color.fromARGB(255, 147, 109, 109)),
+        //     color: Colors.white),
+        child: TextField(
+          textCapitalization: TextCapitalization.sentences,
+          style: const TextStyle(color: Colors.white),
+          controller: _textController,
+          decoration: const InputDecoration(
+            fillColor: AppColors.botBackgroundColor,
+            filled: true,
+            border: InputBorder.none,
+            focusedBorder: InputBorder.none,
+            enabledBorder: InputBorder.none,
+            errorBorder: InputBorder.none,
+            disabledBorder: InputBorder.none,
+          ),
         ),
       ),
     );

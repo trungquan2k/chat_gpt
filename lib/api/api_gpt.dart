@@ -10,8 +10,7 @@ class ApiGpt {
     final uri = Uri.parse(backEnd);
     Map<String, String> headers = {
       'Content-Type': 'application/json',
-      'authorization':
-          'Bearer '
+      'authorization': 'Bearer YOUR TOKEN'
     };
     final data = jsonEncode({
       "prompt": message,
