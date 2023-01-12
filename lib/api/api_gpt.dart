@@ -10,12 +10,12 @@ class ApiGpt {
     final uri = Uri.parse(backEnd);
     Map<String, String> headers = {
       'Content-Type': 'application/json',
-      'authorization': 'Bearer YOUR TOKEN'
+      'authorization': 'Bearer YOUR TOKEN GET IN CHAT GPT WEB'
     };
     final data = jsonEncode({
       "prompt": message,
       "model": "text-davinci-003",
-      "max_tokens": 1000,
+      "max_tokens": 1000, // max lines response you want to show
       "temperature": 0
     });
     try {
