@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		8bSaX74GZnWtOpIOKx8iFPUlWpo=
+		5g4znnRaT5ki8/93Ob5VrxcBFaM=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,7 +18,23 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		qv1DAThrlelW1SiACDO6LBc5uys=
+		K8JatdmIeaNcZVu4daJn04lioKI=
+		</data>
+		<key>flutter_assets/assets/icon/loading.gif</key>
+		<data>
+		XI+AzTMJOup2f5BUu64KDb3Gb/k=
+		</data>
+		<key>flutter_assets/assets/icon/snow.png</key>
+		<data>
+		JNnsiHl3c634VfzwZlzr9JiSUJc=
+		</data>
+		<key>flutter_assets/assets/icons/loading.gif</key>
+		<data>
+		XI+AzTMJOup2f5BUu64KDb3Gb/k=
+		</data>
+		<key>flutter_assets/assets/icons/snow.png</key>
+		<data>
+		JNnsiHl3c634VfzwZlzr9JiSUJc=
 		</data>
 		<key>flutter_assets/assets/messages.json</key>
 		<data>
@@ -34,7 +50,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		WDqa8LrC3nLm/GH9nGZ1OyLh6Ns=
+		kjSDMHajIS9IOZPFNNcO/DS1DQo=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -127,7 +143,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Fcfa+dsNGZUZiqPxp+s9VcBbGbGj8sUqEiFAaiJ/Lw=
+			k3/RAH5VGyZfbTDBuvQEuGbgqrln3TZ05KVHO/0Cf14=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -141,7 +157,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AZMRdrD0PAWmey87ihqFS03tKva+qOwRCBWN5w0enL4=
+			TE/JBlE+ZBDFKSyQg0T9ldMv08ezOS6DOLFpG/pdjn4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/icon/loading.gif</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6JXZf5EviU+KJZHTJDIkCjBQQ/VabtCDQflbkYLYAiE=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/icon/snow.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vQZi3HGadHuZSJqidLAqWzYeTrpGgQhCKcdNob8Xem4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/icons/loading.gif</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6JXZf5EviU+KJZHTJDIkCjBQQ/VabtCDQflbkYLYAiE=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/icons/snow.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vQZi3HGadHuZSJqidLAqWzYeTrpGgQhCKcdNob8Xem4=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/messages.json</key>
@@ -169,7 +213,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iicPOftiYn9otZzk7vH3+1ET0oDxcL4/P8S1BnmUNHo=
+			CLUCwpdzE9nH1cOGtXHGTidJSkTv1GTMefx8qxk+0yc=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

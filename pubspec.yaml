@@ -45,8 +45,12 @@ dependencies:
   path_provider: ^2.0.11
   uuid: ^3.0.6
   flutter_chatgpt_api:
-  sentry_flutter:
-
+  flutter_svg:
+  build_runner: ^2.2.0
+  redux: ^4.0.0
+  redux_dev_tools: ^0.5.2
+  flutter_redux: ^0.6.0
+  flutter_redux_dev_tools: ^0.4.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -71,7 +75,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/messages.json
-    - assets/icon/
+    - assets/icons/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

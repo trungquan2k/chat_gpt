@@ -1,2 +1,2 @@
-const SESSION_TOKEN = "";
-const CLEARANCE_TOKEN = "";
+const sessionToken = "";
+const clearanceToken = "";

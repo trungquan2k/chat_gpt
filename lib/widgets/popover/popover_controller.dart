@@ -20,7 +20,7 @@ class PopOverController extends StatefulWidget {
 class PopOverControllerState extends State<PopOverController> {
   OverlayEntry? barrierOverlay;
   OverlayEntry? mainContentOverlay;
-  ValueNotifier<Size> _sizeNotifier = ValueNotifier(Size.zero);
+  final ValueNotifier<Size> _sizeNotifier = ValueNotifier(Size.zero);
 
   @override
   Widget build(BuildContext context) {

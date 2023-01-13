@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_chatgpt_api/flutter_chatgpt_api.dart';
-import 'package:gpt_chat_rebuild/api/api_gpt.dart';
 import 'package:gpt_chat_rebuild/config/app_color.dart';
+import 'package:gpt_chat_rebuild/data/api/api_gpt.dart';
+import 'package:gpt_chat_rebuild/data/model/chat_model.dart';
 import 'package:gpt_chat_rebuild/feature/chat/widget/list_view_message.dart';
-import 'package:gpt_chat_rebuild/model/chat_model.dart';
-
-// const backgroundColor = Color(0xff343541);
-// const botBackgroundColor = Color(0xff444654);
 
 class ChatGptPage extends StatefulWidget {
   const ChatGptPage({super.key});
@@ -64,7 +61,7 @@ class _ChatGptPageState extends State<ChatGptPage> {
               padding: const EdgeInsets.all(25.0),
               child: Row(
                 children: [
-                  _buildInput(),
+                  _buildTextInput(),
                   _buildSubmit(),
                 ],
               ),
@@ -101,6 +98,8 @@ class _ChatGptPageState extends State<ChatGptPage> {
             _textController.clear();
             Future.delayed(const Duration(milliseconds: 50))
                 .then((_) => _scrollDown());
+
+            // Call api of ChatGPT
             ChatResponse resutl = await ApiGpt.requestApiGPT(input);
             print("______________: ${resutl.choices![0]["text"]}");
             setState(() {
@@ -121,13 +120,9 @@ class _ChatGptPageState extends State<ChatGptPage> {
     );
   }
 
-  Expanded _buildInput() {
+  Expanded _buildTextInput() {
     return Expanded(
-      child: Container(
-        // decoration: BoxDecoration(
-        //     borderRadius: BorderRadius.circular(10),
-        //     border: Border.all(color: Color.fromARGB(255, 147, 109, 109)),
-        //     color: Colors.white),
+      child: SizedBox(
         child: TextField(
           textCapitalization: TextCapitalization.sentences,
           style: const TextStyle(color: Colors.white),
