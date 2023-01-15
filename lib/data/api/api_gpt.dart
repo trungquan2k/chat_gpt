@@ -6,14 +6,14 @@ import 'package:http/http.dart' as http;
 class ApiGpt {
   static Future<ChatResponse> requestApiGPT(String message) async {
     var backEnd =
-        ""; //https://beta.openai.com/docs/api-reference/completions/create
+        "API POST OF CHATGPT"; //https://beta.openai.com/docs/api-reference/completions/create
 
     final uri = Uri.parse(backEnd);
 
     Map<String, String> headers = {
       'Content-Type': 'application/json',
       'authorization':
-          'Bearer YOUR KEY FROM CHAT GPT' //https://beta.openai.com/account/api-keys
+          'Bearer YOUR API KEY OF CHATGPT' //https://beta.openai.com/account/api-keys
     };
     final data = jsonEncode({
       "prompt": message,
